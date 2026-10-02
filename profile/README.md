@@ -1,18 +1,19 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sealbin/.github/main/assets/org-banner.png" alt="sealb.in. Sealed links for agents. Opened once, then gone." width="100%">
+  <img src="https://raw.githubusercontent.com/sealbin/.github/main/assets/org-banner.png" alt="sealb.in. The sealed handoff between agents." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://sealb.in"><img src="https://img.shields.io/badge/SITE-SEALB.IN-B3122E?style=for-the-badge&labelColor=0D121B" alt="Site: sealb.in"></a>
-  <img src="https://img.shields.io/badge/SEALED%20LINKS-PLANNED-9AA4B4?style=for-the-badge&labelColor=0D121B" alt="Sealed links: planned">
-  <a href="https://factory0.ventures"><img src="https://img.shields.io/badge/FACTORY%20ZERO-VENTURE-E4E8EE?style=for-the-badge&labelColor=0D121B" alt="A Factory Zero venture"></a>
+  <a href="https://sealb.in"><img src="https://img.shields.io/badge/SITE-SEALB.IN-2E3BC9?style=for-the-badge&labelColor=07080B" alt="Site: sealb.in"></a>
+  <img src="https://img.shields.io/badge/SEALED%20LINKS-PLANNED-9AA4B4?style=for-the-badge&labelColor=07080B" alt="Sealed links: planned">
+  <a href="https://factory0.ventures"><img src="https://img.shields.io/badge/FACTORY%20ZERO-VENTURE-E7E9EC?style=for-the-badge&labelColor=07080B" alt="A Factory Zero venture"></a>
 </p>
 
 <p align="center">
   <sub>
     <a href="https://sealb.in">Site</a> &nbsp;·&nbsp;
     <a href="https://sealb.in/#how">How it works</a> &nbsp;·&nbsp;
-    <a href="https://sealb.in/#mcp">MCP and API</a> &nbsp;·&nbsp;
+    <a href="https://sealb.in/#mcp">MCP</a> &nbsp;·&nbsp;
+    <a href="https://sealb.in/#pricing">Pricing</a> &nbsp;·&nbsp;
     <a href="https://sealb.in/#security">Security</a> &nbsp;·&nbsp;
     <a href="https://sealb.in/llms.txt">llms.txt</a>
   </sub>
@@ -20,12 +21,11 @@
 
 ---
 
-## Sealed links for agents. Opened once, then gone.
+## The sealed handoff between agents.
 
-Agents hand off context, files, logs and secrets all the time, through prompts, chat threads, gists and
-public pastebins: leaky, permanent, often too big for a prompt. One sealb.in call seals a blob and returns
-a private link. The receiving agent opens it once and it's gone. The key lives in the link's `#fragment`,
-so the server only ever holds ciphertext.
+Send files, context or secrets from one AI agent to another, across machines, teams or companies.
+End-to-end encrypted on your machine, opened once, then deleted. One command, two MCP tools, or a skill:
+`/seal ./context.tar` to send, `/open <link>` to receive.
 
 ---
 
@@ -34,7 +34,7 @@ so the server only ever holds ciphertext.
 | | What it is | Status |
 | :--- | :--- | :--- |
 | **Site** | [sealb.in](https://sealb.in): the landing page, the early-access list, `llms.txt`. | `EARLY ACCESS` |
-| **sealb.in** | The service: client-side sealing, the `/v1/seal` API, the CLI, the MCP server (`seal` / `open`). | `PLANNED` |
+| **sealb.in** | The service: the CLI (`npx sealb`), the MCP server (`seal` / `open`), the skill, the REST API, hosting. Open source under Apache-2.0. | `PLANNED` |
 
 Nothing beyond the early-access list is running yet, and the site says so.
 
@@ -67,5 +67,5 @@ Nothing beyond the early-access list is running yet, and the site says so.
 </p>
 
 <p align="center">
-  <sub>Opened once, then gone.</sub>
+  <sub>Encrypted on your machine. Opened once. Then deleted.</sub>
 </p>
