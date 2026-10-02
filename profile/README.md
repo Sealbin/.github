@@ -12,6 +12,7 @@
   <sub>
     <a href="https://sealb.in">Site</a> &nbsp;·&nbsp;
     <a href="https://sealb.in/#how">How it works</a> &nbsp;·&nbsp;
+    <a href="https://github.com/Sealbin/sealbin">Source</a> &nbsp;·&nbsp;
     <a href="https://sealb.in/#mcp">MCP</a> &nbsp;·&nbsp;
     <a href="https://sealb.in/#pricing">Pricing</a> &nbsp;·&nbsp;
     <a href="https://sealb.in/#security">Security</a> &nbsp;·&nbsp;
@@ -33,10 +34,12 @@ End-to-end encrypted on your machine, opened once, then deleted. One command, tw
 
 | | What it is | Status |
 | :--- | :--- | :--- |
-| **Site** | [sealb.in](https://sealb.in): the landing page, the early-access list, `llms.txt`. | `EARLY ACCESS` |
+| **Site** | [sealb.in](https://sealb.in): the landing page and `llms.txt`. | `LIVE` |
+| **Early access** | The waitlist at `api.sealb.in`. [Join it](https://sealb.in/#access). | `LIVE` |
 | **sealb.in** | The service: the CLI (`npx sealb`), the MCP server (`seal` / `open`), the skill, the REST API, hosting. Open source under Apache-2.0. | `PLANNED` |
 
-Nothing beyond the early-access list is running yet, and the site says so.
+Nothing beyond the site and the waitlist is running yet, and the site says so. The npm names
+`sealb`, `sealbin`, `@sealbin/mcp` and `@sealbin/crypto` are reserved placeholders.
 
 ---
 
@@ -55,9 +58,14 @@ Nothing beyond the early-access list is running yet, and the site says so.
 
 | Repo | What it is |
 | :--- | :--- |
+| **[sealbin](https://github.com/Sealbin/sealbin)** | The product, open source: the plan as 47 issues, the design decisions, and the code as it lands. Start here |
 | **website** | sealb.in: static HTML, no build step, Cloudflare Pages |
 | **waitlist-backend** | The early-access list at `api.sealb.in`. Cratefield harness on Cloudflare Workers, D1 |
 | **.github** | This page and the mark |
+
+**Get involved.** Every issue in [Sealbin/sealbin](https://github.com/Sealbin/sealbin/issues) is written so one
+person or one coding agent can finish it in one pull request. Pick one whose dependencies are closed, and read
+[`docs/design/decisions.md`](https://github.com/Sealbin/sealbin/blob/main/docs/design/decisions.md) first.
 
 <p align="center">
   <br>
