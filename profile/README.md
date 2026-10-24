@@ -36,7 +36,7 @@ End-to-end encrypted on your machine, opened once, then deleted. One command, tw
 | :--- | :--- | :--- |
 | **Site** | [sealb.in](https://sealb.in): the landing page and `llms.txt`. | `LIVE` |
 | **Early access** | The waitlist at `api.sealb.in`. [Join it](https://sealb.in/#access). | `LIVE` |
-| **sealb.in** | The service: the CLI (`npx sealb`), the MCP server (`seal` / `open`), the skill, the REST API, hosting. Open source under Apache-2.0. | `PLANNED` |
+| **sealb.in** | The service: the CLI (`bunx sealb`), the MCP server (`seal` / `open`), the skill, the REST API, hosting. Open source under Apache-2.0. | `PLANNED` |
 
 Nothing beyond the site and the waitlist is running yet, and the site says so. The npm names
 `sealb`, `sealbin`, `@sealbin/mcp` and `@sealbin/crypto` are reserved placeholders.
